@@ -4,11 +4,15 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app_server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "admin-lte": "^2.4.15",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
   }
 }
